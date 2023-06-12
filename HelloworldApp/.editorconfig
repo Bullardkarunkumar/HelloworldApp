@@ -1,0 +1,20 @@
+# NOTE: Requires **VS2019 16.3** or later
+
+# New Rule Set
+# Description:  
+
+# Code files
+[*.{cs,vb}]
+
+
+dotnet_diagnostic.CA1040.severity = error
+
+dotnet_diagnostic.S103.severity = warning
+
+dotnet_diagnostic.S104.severity = error
+
+dotnet_diagnostic.S107.severity = error
+
+dotnet_diagnostic.S1186.severity = error
+
+dotnet_diagnostic.S4663.severity = error
